@@ -1,0 +1,21 @@
+{
+  "name": "不痛不痒",
+  "type": "skill",
+  "cost": 1,
+  "target": "self",
+  "description": "获得 8 点格挡，抽 1 张牌。",
+  "rarity": "uncommon",
+  "character": "stc:ironclad",
+  "effects": [
+    {"type": "block", "numbers": [8]},
+    {"type": "draw", "numbers": [1]}
+  ],
+  "upgrade": {
+    "name": "不痛不痒+",
+    "description": "获得 11 点格挡，抽 1 张牌。",
+    "effects": [
+      {"type": "block", "numbers": [11]},
+      {"type": "draw", "numbers": [1]}
+    ]
+  }
+}

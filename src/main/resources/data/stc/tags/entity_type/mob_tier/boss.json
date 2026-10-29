@@ -1,0 +1,14 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:ender_dragon",
+    "minecraft:wither",
+    "minecraft:warden",
+    "minecraft:breeze",
+    "minecraft:evoker",
+    "minecraft:sniffer",
+    "minecraft:zoglin",
+    "minecraft:panda",
+    "minecraft:elder_guardian"
+  ]
+}

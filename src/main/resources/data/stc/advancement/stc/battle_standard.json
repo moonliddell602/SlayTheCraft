@@ -1,0 +1,32 @@
+{
+  "parent": "stc:entered_game",
+  "display": {
+    "icon": {
+      "id": "stc:battle_standard"
+    },
+    "title": {
+      "translate": "advancements.stc.battle_standard.title"
+    },
+    "description": {
+      "translate": "advancements.stc.battle_standard.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "has_standard": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "stc:battle_standard"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

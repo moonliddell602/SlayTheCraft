@@ -1,0 +1,5 @@
+{
+  "boss_music_floor_1": { "sounds": ["stc:boss/floor_1/floor_1"], "stream": true },
+  "boss_music_floor_2": { "sounds": ["stc:boss/floor_2/floor_2"], "stream": true },
+  "boss_music_floor_3": { "sounds": ["stc:boss/floor_3/floor_3"], "stream": true }
+}

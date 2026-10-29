@@ -1,0 +1,23 @@
+{
+  "parent": "stc:card_binder",
+  "display": {
+    "icon": {
+      "id": "stc:card_recycler"
+    },
+    "title": {
+      "translate": "advancements.stc.card_delete.title"
+    },
+    "description": {
+      "translate": "advancements.stc.card_delete.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "deleted_a_card": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

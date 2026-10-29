@@ -1,0 +1,18 @@
+{
+  "name": "打击",
+  "type": "attack",
+  "cost": 1,
+  "target": "enemy",
+  "description": "造成 6 点伤害。",
+  "rarity": "common",
+  "effects": [
+    {"type": "damage", "numbers": [6]}
+  ],
+  "upgrade": {
+    "name": "打击+",
+    "description": "造成 9 点伤害。",
+    "effects": [
+      {"type": "damage", "numbers": [9]}
+    ]
+  }
+}

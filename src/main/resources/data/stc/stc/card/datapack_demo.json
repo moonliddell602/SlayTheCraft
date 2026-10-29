@@ -1,0 +1,19 @@
+{
+  "name": "数据包示例牌",
+  "type": "attack",
+  "cost": 0,
+  "target": "enemy",
+  "description": "造成 7 点伤害。这张牌只存在于数据包注册表 stc:card 里（生成牌，不进任何卡池）。",
+  "rarity": "common",
+  "generated": true,
+  "effects": [
+    {"type": "damage", "numbers": [7]}
+  ],
+  "upgrade": {
+    "name": "数据包示例牌+",
+    "description": "造成 10 点伤害。这张牌只存在于数据包注册表 stc:card 里（生成牌，不进任何卡池）。",
+    "effects": [
+      {"type": "damage", "numbers": [10]}
+    ]
+  }
+}

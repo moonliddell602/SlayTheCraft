@@ -1,0 +1,9 @@
+{
+  "pack": {
+    "description": {
+       "text": "SlayTheCraft"
+                   },
+    "pack_format": 34,
+    "supported_formats": [34, 48]
+  }
+}

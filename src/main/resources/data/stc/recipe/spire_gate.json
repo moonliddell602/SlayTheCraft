@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "BGB",
+    "GDG",
+    "BGB"
+  ],
+  "key": {
+    "B": { "item": "minecraft:stone_bricks" },
+    "G": { "item": "minecraft:glass" },
+    "D": { "item": "minecraft:diamond" }
+  },
+  "result": {
+    "id": "stc:spire_gate",
+    "count": 1
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "name": "雷霆一击",
+  "type": "attack",
+  "cost": 1,
+  "target": "all_enemies",
+  "description": "对所有敌人造成 4 点伤害，给予 1 层易伤。",
+  "rarity": "common",
+  "character": "stc:ironclad",
+  "effects": [
+    {"type": "damage_all", "numbers": [4]},
+    {"type": "vulnerable_all", "numbers": [1]}
+  ],
+  "upgrade": {
+    "name": "雷霆一击+",
+    "description": "对所有敌人造成 7 点伤害，给予 1 层易伤。",
+    "effects": [
+      {"type": "damage_all", "numbers": [7]},
+      {"type": "vulnerable_all", "numbers": [1]}
+    ]
+  }
+}

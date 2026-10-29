@@ -1,0 +1,24 @@
+{
+  "display": {
+    "icon": {
+      "id": "stc:spire_gate"
+    },
+    "title": {
+      "translate": "advancements.stc.root.title"
+    },
+    "description": {
+      "translate": "advancements.stc.root.description"
+    },
+    "frame": "task",
+    "background": "minecraft:textures/block/white_wool.png",
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "criteria": {
+    "installed": {
+      "trigger": "minecraft:tick"
+    }
+  },
+  "sends_telemetry_event": true
+}

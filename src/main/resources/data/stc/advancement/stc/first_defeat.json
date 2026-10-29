@@ -1,0 +1,23 @@
+{
+  "parent": "stc:first_blood",
+  "display": {
+    "icon": {
+      "id": "minecraft:skeleton_skull"
+    },
+    "title": {
+      "translate": "advancements.stc.first_defeat.title"
+    },
+    "description": {
+      "translate": "advancements.stc.first_defeat.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "granted_by_defeat": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

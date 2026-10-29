@@ -1,0 +1,21 @@
+{
+  "name": "快斩",
+  "type": "attack",
+  "cost": 1,
+  "target": "enemy",
+  "description": "造成 8 点伤害，抽 1 张牌。",
+  "rarity": "common",
+  "character": "stc:silent",
+  "effects": [
+    {"type": "damage", "numbers": [8]},
+    {"type": "draw", "numbers": [1]}
+  ],
+  "upgrade": {
+    "name": "快斩+",
+    "description": "造成 12 点伤害，抽 1 张牌。",
+    "effects": [
+      {"type": "damage", "numbers": [12]},
+      {"type": "draw", "numbers": [1]}
+    ]
+  }
+}

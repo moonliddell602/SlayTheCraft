@@ -1,0 +1,32 @@
+{
+  "parent": "stc:entered_game",
+  "display": {
+    "icon": {
+      "id": "stc:card_binder"
+    },
+    "title": {
+      "translate": "advancements.stc.card_binder.title"
+    },
+    "description": {
+      "translate": "advancements.stc.card_binder.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "has_binder": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "stc:card_binder"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

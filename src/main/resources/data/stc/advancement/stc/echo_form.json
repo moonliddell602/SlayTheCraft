@@ -1,0 +1,23 @@
+{
+  "parent": "stc:battle_standard",
+  "display": {
+    "icon": {
+      "id": "minecraft:echo_shard"
+    },
+    "title": {
+      "translate": "advancements.stc.echo_form.title"
+    },
+    "description": {
+      "translate": "advancements.stc.echo_form.description"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "criteria": {
+    "four_same_cards": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

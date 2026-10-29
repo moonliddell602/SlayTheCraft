@@ -1,0 +1,19 @@
+{
+  "name": "顺劈斩",
+  "type": "attack",
+  "cost": 1,
+  "target": "all_enemies",
+  "description": "对所有敌人造成 8 点伤害。",
+  "rarity": "common",
+  "character": "stc:ironclad",
+  "effects": [
+    {"type": "damage_all", "numbers": [8]}
+  ],
+  "upgrade": {
+    "name": "顺劈斩+",
+    "description": "对所有敌人造成 11 点伤害。",
+    "effects": [
+      {"type": "damage_all", "numbers": [11]}
+    ]
+  }
+}

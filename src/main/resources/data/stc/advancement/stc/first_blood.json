@@ -1,0 +1,23 @@
+{
+  "parent": "stc:entered_game",
+  "display": {
+    "icon": {
+      "id": "minecraft:iron_sword"
+    },
+    "title": {
+      "translate": "advancements.stc.first_blood.title"
+    },
+    "description": {
+      "translate": "advancements.stc.first_blood.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "granted_by_combat": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

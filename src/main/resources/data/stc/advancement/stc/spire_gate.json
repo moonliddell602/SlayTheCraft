@@ -1,0 +1,32 @@
+{
+  "parent": "stc:entered_game",
+  "display": {
+    "icon": {
+      "id": "stc:spire_gate"
+    },
+    "title": {
+      "translate": "advancements.stc.spire_gate.title"
+    },
+    "description": {
+      "translate": "advancements.stc.spire_gate.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "has_gate": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "stc:spire_gate"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

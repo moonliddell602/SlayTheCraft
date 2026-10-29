@@ -1,0 +1,19 @@
+{
+  "name": "燃烧",
+  "type": "power",
+  "cost": 1,
+  "target": "self",
+  "description": "获得 2 点力量。",
+  "rarity": "uncommon",
+  "character": "stc:ironclad",
+  "effects": [
+    {"type": "strength_self", "numbers": [2]}
+  ],
+  "upgrade": {
+    "name": "燃烧+",
+    "description": "获得 3 点力量。",
+    "effects": [
+      {"type": "strength_self", "numbers": [3]}
+    ]
+  }
+}

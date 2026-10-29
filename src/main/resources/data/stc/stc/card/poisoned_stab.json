@@ -1,0 +1,21 @@
+{
+  "name": "毒刺",
+  "type": "attack",
+  "cost": 1,
+  "target": "enemy",
+  "description": "造成 6 点伤害，给予 3 层中毒。",
+  "rarity": "common",
+  "character": "stc:silent",
+  "effects": [
+    {"type": "damage", "numbers": [6]},
+    {"type": "poison", "numbers": [3]}
+  ],
+  "upgrade": {
+    "name": "毒刺+",
+    "description": "造成 8 点伤害，给予 4 层中毒。",
+    "effects": [
+      {"type": "damage", "numbers": [8]},
+      {"type": "poison", "numbers": [4]}
+    ]
+  }
+}

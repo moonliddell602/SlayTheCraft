@@ -1,0 +1,21 @@
+{
+  "name": "重击",
+  "type": "attack",
+  "cost": 2,
+  "target": "enemy",
+  "description": "造成 8 点伤害，施加 2 层易伤。",
+  "rarity": "common",
+  "character": "stc:ironclad",
+  "effects": [
+    {"type": "damage", "numbers": [8]},
+    {"type": "vulnerable", "numbers": [2]}
+  ],
+  "upgrade": {
+    "name": "重击+",
+    "description": "造成 10 点伤害，施加 3 层易伤。",
+    "effects": [
+      {"type": "damage", "numbers": [10]},
+      {"type": "vulnerable", "numbers": [3]}
+    ]
+  }
+}
